@@ -115,6 +115,15 @@
 
 	</build>
 <distributionManagement>
-
+<snapshotRepository>
+    <id>snapshots</id>
+	<name>SNAPSHOT</name>
+    <url>http://52.53.160.146:8080/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+  <repository>
+    <id>releases</id>
+	<name>RELEASES</name>
+    <url>http://52.53.160.146:8080/nexus/content/repositories/releases/</url>
+  </repository>
 </distributionManagement>
 </project>
